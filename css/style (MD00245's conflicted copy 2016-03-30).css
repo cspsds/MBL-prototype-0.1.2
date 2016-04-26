@@ -1,0 +1,1429 @@
+body {
+}
+
+.wrapme {
+  z-index: -3000;
+}
+
+.h1 {
+  font-size: 30px;
+}
+
+.fixed {
+  backface-visibility: hidden;
+  position: fixed;
+  z-index:2;
+  transition: transform 300ms ease;
+}
+
+.fixed-open {
+  transform: translate3d(256px, 0px, 0px);
+}
+
+.btn-hamburger {
+  position: static;
+  height: 80px;
+  width: auto;
+  background-image: none;
+  background-color: rgba(255, 255, 255, 0.48);
+  dispaly: flex;
+  padding: 6%;
+}
+
+.header-hamburger {
+  background-color: #ecf0f1;
+  width: 100%;
+  height: 80px;
+  font-size: 9px;
+  color: #7f8c8d;
+  position: relative;
+  top: 0;
+}
+
+
+.btn-hamburger > h3 {
+  margin-top: 4px;
+  font-size: 10px;
+  font-weight: bold;
+}
+
+.btn-hamburger > img {
+  width: 30px;
+  margin-top: 2px;
+  margin-bottom: 2px;
+}
+
+.header-hamburger-container {
+  display: flex;
+  justify-content: space-between;
+  height: 81px;
+}
+
+.lesson-menu {
+  position: static;
+  height: 80px;
+  width: 199px;
+  background-image: none;
+  background-color: rgba(255, 255,   255, 0.48);
+  border-width: 0;
+  padding-left: 10px;
+  padding-right: 10px; 
+}
+
+.nav {
+  position: fixed;
+  float: right;
+  left: 213px;
+  background-color: #3b3b3b;
+}
+
+.lesson-menu-container {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+}
+
+.lesson-section-name > a:link, a:visited, a:active {
+      font-size: 30px;
+      text-decoration: none;
+      font-weight: 500;
+      color: #2ecc71;
+    }
+
+.section-name-actual {
+  font-size: 10px;
+  margin-bottom: -17px;
+}
+
+.glyphicon-menu-right {
+      font-weight: normal;
+      font-size: 16px;
+    }
+
+
+.jumbotron  {
+  font-family: "proxima-nova",sans-serif;
+  background-image: url(/images/looking_at_sunset.jpg);
+  background-repeat: no-repeat;
+  color: white;
+  -webkit-box-shadow: 17px 10px 120px -5px rgba(0,0,0,0.22);
+  -moz-box-shadow: 17px 10px 120px -5px rgba(0,0,0,0.22);
+  box-shadow: 17px 10px 120px -5px rgba(0,0,0,0.22);
+  margin-bottom: 0;
+}
+
+.lesson-container > h1 {
+  font-weight: 100;
+  font-size: 118px;
+  margin-bottom: 40px;
+  margin-top: 80px;
+}
+
+.lesson-container {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  margin-left: 20px;
+}
+
+.lesson-container > time {
+  font-size: 20px;
+  margin-left: 20px;
+  margin-top: -51px;
+  font-weight: 900;
+}
+
+.gold-text-container {
+  display: flex;
+  flex-flow: column nowrap;
+  background-color: #e67e22;
+  padding: 30px;
+  color: white;
+}
+
+.golden-text-title {
+  font-family: "proxima-nova-soft", sans-serif;
+  text-transform: uppercase;
+  color: white;
+}
+
+.golden-text-citation {
+  font-family: "proxima-nova-soft", sans-serif;
+  font-weight: 600;
+  font-size: 12px;
+  margin-top: -10px;
+}
+
+.golden-text-actual {
+  font-family: "museo-slab",serif;
+  font-size: 24px;
+  line-height: 39px;
+  margin-top: 40px;
+}
+
+.gt-social-media {
+  display: flex;
+  flex-flow: row-reverse; nowrap;
+  justify-content: space-between;
+}
+
+.golden-text-share > button {
+  border-width: 0px;
+  margin-left: 15px;
+}
+
+.gt-fb {
+  background: url(/images/facebookicon.png) no-repeat;
+  background-size: 32px auto;
+  height: 32px;
+  width: 32px;
+  border: none;
+  margin-left: 10px;
+}
+
+.gt-twitter {
+  background: url(/images/twitter.png) no-repeat;
+  background-size: 32px auto;
+  height: 32px;
+  width: 32px;
+  border: none;
+  margin-left: 10px;
+
+}
+
+.gt-instagram {
+  background: url(/images/instagram.png) no-repeat;
+  background-size: 32px auto;
+  height: 32px;
+  width: 32px;
+  border: none;
+  margin-left: 10px;
+}
+
+.rr-container {
+  display: flex;
+  flex-flow: column;
+}
+
+.rr-container > h1 {
+  font-family: "proxima-nova-soft", sans-serif;
+  text-transform: uppercase;
+  font-size: 27px;
+  margin-top: 40px;
+}
+
+.rr-citation {
+  font-family: "proxima-nova-soft", sans-serif;
+  font-weight: 600;
+  font-size: 11px;
+  margin-bottom: 60px;
+}
+
+.rr-actual {
+  font-family: "museo-slab",serif;
+  font-size: 19px;
+  line-height: 31px;
+  margin-bottom: 30px;
+}
+
+.rr-actual > p {
+  margin-bottom: 30px;
+}
+
+
+
+
+
+
+
+
+.section-header-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.section-header {
+  margin-top: 30px;
+  margin-bottom: 80px;
+}
+
+.section-head-text-container  {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: flex-end;
+  justify-content: center;
+}
+
+.bible-section-head-text-container  {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: flex-end;
+  justify-content: flex-end;
+}
+
+.section-head-text-container > h1,
+.bible-section-head-text-container > h1 {
+  font-weight: 100;
+  align-self: flex-end;
+  margin-right: -7px;
+  font-size: 40px;
+}
+
+.section-head-text-container > h2 {
+  text-align: left;
+}
+
+.bible-section-head-text-container {
+  text-align: right;
+}
+
+.section-head-text-container > h2, 
+.bible-section-head-text-container > h2 {
+  font-size: 18px;
+  font-weight: 900;
+  font-family: "museo-sans",sans-serif;
+  margin-top: -7px;
+  width: 204px;
+}
+
+.sh-section-head-text-container > h2  {
+  font-size: 18px;
+  font-weight: 900;
+  font-family: "museo-sans",sans-serif;
+  margin-top: -7px;
+}
+
+.circle {
+  background-color: #f1c40f;
+  -webkit-border-radius: 100px;
+  -moz-border-radius: 100px;
+  border-radius: 100px;
+  height: 95px;
+  width: 95px;
+  position: relative;
+  top: 11px;
+}
+
+.bible-logo-image {
+  background-image: url(/images/bible_icon.png);
+  background-repeat: no-repeat;
+  background-size: 57px auto;
+  height: 187px;
+  width: 80px;
+  position: absolute;
+  z-index: 100;
+  background-position: 21px 11px;
+}
+
+
+
+
+
+.bible-verse  {
+  margin-bottom: 40px;
+}
+
+.bible {
+  text-align: right;
+}
+
+.verse > p {
+  font-family: "museo-slab",serif;
+  font-size: 19px;
+  line-height: 27px;
+}
+
+.line-number  {
+  font-family: "proxima-nova-soft", sans-serif;
+  font-weight: 300;
+  color: #95a5a6;
+  font-size: 14px;
+  margin-right: 10px;
+}
+
+.color-container  {
+  background-color: #fbf8f1;
+  padding: 20px;
+}
+
+
+.verse-line-number  {
+  font-family: "museo-sans-rounded",sans-serif;
+  color: #95a5a6;
+  font-size: 14px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.verse-number {
+  font-family: "museo-sans-rounded",sans-serif;
+  font-weight: 800;
+}
+
+.verse-cite {
+  font-family: "museo-sans-rounded",sans-serif;
+  font-weight: 800;
+  color: #2980b9;
+}
+
+.verse-citation {
+  margin-bottom: 8px;
+}
+
+.verse-citation p, span {
+  font-size: 14px;
+  margin-bottom: -10px;
+}
+
+.text-highlight {
+  color: #2470a2;
+  font-size: 19px;
+}
+
+.text-highlight a:link,
+.text-highlight a:hover, 
+.text-highlight a:focus, 
+.text-highlight a:visited,
+.text-highlight a:active 
+{
+  text-decoration: none;
+  color: #2980b9;
+  font-size: 19px;
+}
+
+#def-discerned {
+}
+
+.conv   {
+  display: none;
+}
+
+
+.definition
+{
+position: absolute;
+width: 290px;
+height: auto;
+padding: 10px;
+background: #2980b9;
+-webkit-border-radius: 6px;
+-moz-border-radius: 6px;
+border-radius: 6px;
+color: white;
+margin-top: -45px;
+font-family: "museo-slab",serif;
+font-size: 16px;
+line-height: 20px;
+padding: 20px;
+}
+
+.definition:after 
+{
+content: '';
+position: absolute;
+border-style: solid;
+border-width: 0 16px 20px;
+border-color: #2980b9 transparent;
+display: block;
+width: 0;
+z-index: 1;
+margin-left: -16px;
+top: -20px;
+left: 65%;
+}
+
+.intellectual-definition
+{
+position: absolute;
+width: 290px;
+padding: 10px;
+background: #2980b9;
+-webkit-border-radius: 6px;
+-moz-border-radius: 6px;
+border-radius: 6px;
+color: white;
+margin-top: -81px;
+font-family: "museo-slab",serif;
+font-size: 16px;
+line-height: 20px;
+padding: 20px;
+}
+
+.intellectual-definition:after 
+{
+content: '';
+position: absolute;
+border-style: solid;
+border-width: 0 16px 20px;
+border-color: #2980b9 transparent;
+display: block;
+width: 0;
+z-index: 1;
+margin-left: -16px;
+top: -20px;
+left: 19%;
+}
+
+
+.suppositional-definition
+{
+position: absolute;
+width: 290px;
+padding: 10px;
+background: #2980b9;
+-webkit-border-radius: 6px;
+-moz-border-radius: 6px;
+border-radius: 6px;
+color: white;
+margin-top: -49px;
+font-family: "museo-slab",serif;
+font-size: 16px;
+line-height: 20px;
+padding: 20px;
+}
+
+.suppositional-definition:after 
+{
+content: '';
+position: absolute;
+border-style: solid;
+border-width: 0 16px 20px;
+border-color: #2980b9 transparent;
+display: block;
+width: 0;
+z-index: 1;
+margin-left: 69px;
+top: -20px;
+left: 19%;
+}
+
+.age-definition
+{
+position: absolute;
+width: 290px;
+padding: 10px;
+background: #2980b9;
+-webkit-border-radius: 6px;
+-moz-border-radius: 6px;
+border-radius: 6px;
+color: white;
+margin-top: -156px;
+margin-left: 57px;
+font-family: "museo-slab",serif;
+font-size: 16px;
+line-height: 20px;
+padding: 20px;
+}
+
+.age-definition:after 
+{
+content: '';
+position: absolute;
+border-style: solid;
+border-width: 0 16px 20px;
+border-color: #2980b9 transparent;
+display: block;
+width: 0;
+z-index: 1;
+margin-left: 172px;
+top: -20px;
+left: 19%;
+}
+
+
+.ponder-definition
+{
+position: absolute;
+width: 290px;
+padding: 10px;
+background: #2980b9;
+-webkit-border-radius: 6px;
+-moz-border-radius: 6px;
+border-radius: 6px;
+color: white;
+margin-top: -73px;
+font-family: "museo-slab",serif;
+font-size: 16px;
+line-height: 20px;
+padding: 20px;
+}
+
+.ponder-definition:after 
+{
+content: '';
+position: absolute;
+border-style: solid;
+border-width: 0 16px 20px;
+border-color: #2980b9 transparent;
+display: block;
+width: 0;
+z-index: 1;
+margin-left: 69px;
+top: -20px;
+left: -20%;
+}
+
+.fulfilled-definition
+{
+position: absolute;
+width: 290px;
+padding: 10px;
+background: #2980b9;
+-webkit-border-radius: 6px;
+-moz-border-radius: 6px;
+border-radius: 6px;
+color: white;
+margin-top: -14px;
+margin-left: 52px;
+font-family: "museo-slab",serif;
+font-size: 16px;
+line-height: 20px;
+padding: 20px;
+}
+
+.fulfilled-definition:after 
+{
+content: '';
+position: absolute;
+border-style: solid;
+border-width: 0 16px 20px;
+border-color: #2980b9 transparent;
+display: block;
+width: 0;
+z-index: 1;
+margin-left: 100px;
+top: -20px;
+left: 19%;
+}
+
+.press-definition
+{
+position: absolute;
+width: 290px;
+padding: 10px;
+background: #2980b9;
+-webkit-border-radius: 6px;
+-moz-border-radius: 6px;
+border-radius: 6px;
+color: white;
+margin-top: -681px;
+font-family: "museo-slab",serif;
+font-size: 16px;
+line-height: 20px;
+padding: 20px;
+}
+
+.press-definition:after 
+{
+content: '';
+position: absolute;
+border-style: solid;
+border-width: 0 16px 20px;
+border-color: #2980b9 transparent;
+display: block;
+width: 0;
+z-index: 1;
+margin-left: -19px;
+top: -20px;
+left: 19%;
+}
+
+.sycomore-definition
+{
+position: absolute;
+width: 290px;
+padding: 10px;
+background: #2980b9;
+-webkit-border-radius: 6px;
+-moz-border-radius: 6px;
+border-radius: 6px;
+color: white;
+margin-top: -625px;
+margin-left: 41px;
+font-family: "museo-slab",serif;
+font-size: 16px;
+line-height: 20px;
+padding: 20px;
+}
+
+.sycomore-definition:after 
+{
+content: '';
+position: absolute;
+border-style: solid;
+border-width: 0 16px 20px;
+border-color: #2980b9 transparent;
+display: block;
+width: 0;
+z-index: 1;
+margin-left: 122px;
+top: -20px;
+left: 19%;
+}
+
+.creed-definition
+{
+position: absolute;
+width: 290px;
+padding: 10px;
+background: #2980b9;
+-webkit-border-radius: 6px;
+-moz-border-radius: 6px;
+border-radius: 6px;
+color: white;
+margin-top: -234px;
+font-family: "museo-slab",serif;
+font-size: 16px;
+line-height: 20px;
+padding: 20px;
+}
+
+.creed-definition:after 
+{
+content: '';
+position: absolute;
+border-style: solid;
+border-width: 0 16px 20px;
+border-color: #2980b9 transparent;
+display: block;
+width: 0;
+z-index: 1;
+margin-left: 5px;
+top: -20px;
+left: 19%;
+}
+
+.jehovah-definition
+{
+position: absolute;
+width: 290px;
+padding: 10px;
+background: #2980b9;
+-webkit-border-radius: 6px;
+-moz-border-radius: 6px;
+border-radius: 6px;
+color: white;
+margin-top: -179px;
+font-family: "museo-slab",serif;
+font-size: 16px;
+line-height: 20px;
+padding: 20px;
+}
+
+.jehovah-definition:after 
+{
+content: '';
+position: absolute;
+border-style: solid;
+border-width: 0 16px 20px;
+border-color: #2980b9 transparent;
+display: block;
+width: 0;
+z-index: 1;
+margin-left: 69px;
+top: -20px;
+left: 19%;
+}
+
+
+.jot-definition
+{
+position: absolute;
+width: 290px;
+padding: 10px;
+background: #2980b9;
+-webkit-border-radius: 6px;
+-moz-border-radius: 6px;
+border-radius: 6px;
+color: white;
+margin-top: -530px;
+font-family: "museo-slab",serif;
+font-size: 16px;
+line-height: 20px;
+padding: 20px;
+}
+
+.jot-definition:after 
+{
+content: '';
+position: absolute;
+border-style: solid;
+border-width: 0 16px 20px;
+border-color: #2980b9 transparent;
+display: block;
+width: 0;
+z-index: 1;
+margin-left: -53px;
+top: -20px;
+left: 19%;
+}
+
+
+.cliques-definition
+{
+position: absolute;
+width: 290px;
+padding: 10px;
+background: #2980b9;
+-webkit-border-radius: 6px;
+-moz-border-radius: 6px;
+border-radius: 6px;
+color: white;
+margin-top: -477px;
+font-family: "museo-slab",serif;
+font-size: 16px;
+line-height: 20px;
+padding: 20px;
+}
+
+.cliques-definition:after 
+{
+content: '';
+position: absolute;
+border-style: solid;
+border-width: 0 16px 20px;
+border-color: #2980b9 transparent;
+display: block;
+width: 0;
+z-index: 1;
+margin-left: -53px;
+top: -20px;
+left: 19%;
+}
+
+
+ .stature-definition
+{
+position: absolute;
+width: 290px;
+padding: 10px;
+background: #2980b9;
+-webkit-border-radius: 6px;
+-moz-border-radius: 6px;
+border-radius: 6px;
+color: white;
+margin-top: -652px;
+font-family: "museo-slab",serif;
+font-size: 16px;
+line-height: 20px;
+padding: 20px;
+}
+
+.stature-definition:after 
+{
+content: '';
+position: absolute;
+border-style: solid;
+border-width: 0 16px 20px;
+border-color: #2980b9 transparent;
+display: block;
+width: 0;
+z-index: 1;
+margin-left: -43px;
+top: -20px;
+left: 19%;
+}
+
+.dress-definition
+{
+position: absolute;
+width: 290px;
+padding: 10px;
+background: #2980b9;
+-webkit-border-radius: 6px;
+-moz-border-radius: 6px;
+border-radius: 6px;
+color: white;
+margin-top: -510px;
+font-family: "museo-slab",serif;
+font-size: 16px;
+line-height: 20px;
+padding: 20px;
+}
+
+.dress-definition:after 
+{
+content: '';
+position: absolute;
+border-style: solid;
+border-width: 0 16px 20px;
+border-color: #2980b9 transparent;
+display: block;
+width: 0;
+z-index: 1;
+margin-left: 17px;
+top: -20px;
+left: 19%;
+}
+
+.morsel-definition
+{
+position: absolute;
+width: 290px;
+padding: 10px;
+background: #2980b9;
+-webkit-border-radius: 6px;
+-moz-border-radius: 6px;
+border-radius: 6px;
+color: white;
+margin-top: -677px;
+font-family: "museo-slab",serif;
+font-size: 16px;
+line-height: 20px;
+padding: 20px;
+}
+
+.morsel-definition:after 
+{
+content: '';
+position: absolute;
+border-style: solid;
+border-width: 0 16px 20px;
+border-color: #2980b9 transparent;
+display: block;
+width: 0;
+z-index: 1;
+margin-left: -43px;
+top: -20px;
+left: 19%;
+}
+
+.conventionality-definition
+{
+position: absolute;
+width: 290px;
+padding: 10px;
+background: #2980b9;
+-webkit-border-radius: 6px;
+-moz-border-radius: 6px;
+border-radius: 6px;
+color: white;
+margin-top: -176px;
+font-family: "museo-slab",serif;
+font-size: 16px;
+line-height: 20px;
+padding: 20px;
+}
+
+.conventionality-definition:after 
+{
+content: '';
+position: absolute;
+border-style: solid;
+border-width: 0 16px 20px;
+border-color: #2980b9 transparent;
+display: block;
+width: 0;
+z-index: 1;
+margin-left: 41px;
+top: -20px;
+left: 19%;
+}
+
+.portal-definition
+{
+position: absolute;
+width: 290px;
+padding: 10px;
+background: #2980b9;
+-webkit-border-radius: 6px;
+-moz-border-radius: 6px;
+border-radius: 6px;
+color: white;
+margin-top: -238px;
+font-family: "museo-slab",serif;
+font-size: 16px;
+line-height: 20px;
+padding: 20px;
+}
+
+.portal-definition:after 
+{
+content: '';
+position: absolute;
+border-style: solid;
+border-width: 0 16px 20px;
+border-color: #2980b9 transparent;
+display: block;
+width: 0;
+z-index: 1;
+margin-left: -16px;
+top: -20px;
+left: 19%;
+}
+
+.scholarly-definition
+{
+position: absolute;
+width: 290px;
+padding: 10px;
+background: #2980b9;
+-webkit-border-radius: 6px;
+-moz-border-radius: 6px;
+border-radius: 6px;
+color: white;
+margin-top: -50px;
+font-family: "museo-slab",serif;
+font-size: 16px;
+line-height: 20px;
+padding: 20px;
+}
+
+.scholarly-definition:after 
+{
+content: '';
+position: absolute;
+border-style: solid;
+border-width: 0 16px 20px;
+border-color: #2980b9 transparent;
+display: block;
+width: 0;
+z-index: 1;
+margin-left: -16px;
+top: -20px;
+left: 19%;
+}
+.s-and-h  {
+  padding: 20px;
+}
+
+.bible-translations {
+  background-color: #ecf0f1;
+  color: #8e44ad;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  border-radius: 6px;
+  width: 338px;
+  display: table;
+  height: auto;
+  margin-bottom: 21px;
+  display: flex;
+  flex-flow: column;
+}
+
+.word-studies {
+  background-color: #ecf0f1;
+  color: #16a085;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  border-radius: 6px;
+  width: 338px;
+  display: table;
+  height: auto;
+  margin-bottom: 21px;
+  display: flex;
+  flex-flow: column;
+}
+
+
+.bible-dive {
+  background-color: #ecf0f1;
+  color: #f39c12;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  border-radius: 6px;
+  width: 338px;
+  display: table;
+  height: auto;
+  margin-bottom: 21px;
+  display: flex;
+  flex-flow: column;
+}
+
+
+.bible-translations > p,
+.word-studies > p,
+.bible-dive > p 
+{
+    padding: 12px 22px 40px 20px;
+    font-size: 19px;
+    margin-bottom: -16px;
+    font-family: "museo-sans-rounded",sans-serif;
+    font-weight: 500;
+}
+
+.bible-translations cite {
+  font-size: 12px;
+  font-family: "museo-sans-rounded",sans-serif;
+  font-weight: 300;
+}
+
+.word  {
+  border-radius: 200px 200px 200px 200px;
+  -moz-border-radius: 200px 200px 200px 200px;
+  -webkit-border-radius: 200px 200px 200px 200px;
+  height: 40px;
+  width: 40px;
+  background-color: #16a085;
+  padding: 5px 8px 13px;
+  color: white;
+  font-family: "museo-slab",serif;
+  font-weight: 800;
+  font-size: 24px;
+  margin-top: -26px;
+  margin-bottom: 17px;
+}
+
+.translate  {
+  border-radius: 200px 200px 200px 200px;
+  -moz-border-radius: 200px 200px 200px 200px;
+  -webkit-border-radius: 200px 200px 200px 200px;
+  height: 40px;
+  width: 40px;
+  background-color: #9b59b6;
+  padding: 5px 12px 13px;
+  color: white;
+  font-family: "museo-slab",serif;
+  font-weight: 800;
+  font-size: 24px;
+  margin-top: -26px;
+  margin-bottom: 17px;
+}
+
+.dive  {
+  border-radius: 200px 200px 200px 200px;
+  -moz-border-radius: 200px 200px 200px 200px;
+  -webkit-border-radius: 200px 200px 200px 200px;
+  height: 40px;
+  width: 40px;
+  background-color: #f39c12;
+  padding: 5px 12px 13px;
+  color: white;
+  font-family: "museo-slab",serif;
+  font-weight: 800;
+  font-size: 24px;
+  margin-top: -26px;
+  margin-bottom: 17px;
+}
+
+.bible-translations h3,
+.word-studies h3,
+.bible-dive h3 
+{
+  margin-left: 20px;
+  margin-top: 13px;
+}
+
+
+.translations-header {
+  background-color: #8e44ad;
+  font-family: "museo-sans-rounded",sans-serif;
+  font-weight: 500;
+  color: white;
+  display: table-row;
+  border-radius: 5px 5px 0px 0px;
+  -moz-border-radius: 5px 5px 0px 0px;
+  -webkit-border-radius: 5px 5px 0px 0px;
+  display: flex;
+  flex-flow: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.word-studies-header {
+  background-color: #16a085;
+  font-family: "museo-sans-rounded",sans-serif;
+  font-weight: 500;
+  color: white;
+  display: table-row;
+  border-radius: 5px 5px 0px 0px;
+  -moz-border-radius: 5px 5px 0px 0px;
+  -webkit-border-radius: 5px 5px 0px 0px;
+  display: flex;
+  flex-flow: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.bible-dive-header {
+  background-color: #f39c12;
+  font-family: "museo-sans-rounded",sans-serif;
+  font-weight: 500;
+  color: white;
+  display: table-row;
+  border-radius: 5px 5px 0px 0px;
+  -moz-border-radius: 5px 5px 0px 0px;
+  -webkit-border-radius: 5px 5px 0px 0px;
+  display: flex;
+  flex-flow: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.close  {
+  margin-right: 20px;
+  background-image: url(/images/close.png);
+  background-repeat: no-repeat;
+  height: 15px;
+  width: 15px;
+}
+
+
+.illustration, .map {
+  margin-bottom: -182px
+}
+
+.first-cartoon  {
+  background-image: url(/images/reaching-for-the-christ.jpg);
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 400px;
+  width: 100%;
+  height: 400px;
+  background-size: 376px auto;
+}
+
+.second-cartoon {
+  background-image: url(/images/cool_kids.jpg);
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 400px;
+  width: 100%;
+  height: 400px;
+  background-size: 376px auto;
+}
+
+.first-map  {
+  background-image: url(/images/syria.png);
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 408px;
+  background-size: 481px auto;
+  background-position: -15px -9px;
+  margin-bottom: -43px;
+}
+
+.goverse  {
+  background-image: url(/images/goverse_image.png);
+  background-repeat: no-repeat;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  border-radius: 15px;
+  height: 581px;
+  background-size: 366px auto;
+  background-position: -23px -7px;
+  margin-bottom: 40px;
+}
+
+.goverse-container  {
+  display: flex;
+  flex-flow: column;
+  justify-content: space-between;
+  padding: 20px;
+  height: 100%;
+  width: auto;
+}
+
+.goverse-logo {
+  height: 42px;
+  width: 153px;
+  display: block;
+  background-image: url(/images/goverse-logo.png);
+  background-repeat: no-repeat;
+  background-size: 111px auto;
+}
+
+.goverse-footer-container {
+  display: flex;
+  align-items: stretch;
+  flex-flow: row;
+  justify-content: flex-end;
+}
+
+.social-media-icons {
+  margin-bottom: -30px;
+}
+
+.goverse-container p {
+  font-family: "museo-slab",serif;
+  font-size: 23px;
+  line-height: 39px;
+  color: white;
+  margin-top: 50px;
+}
+
+#tooltip {
+      max-width: 350px;
+}
+
+
+.marginal-headings  {
+  display: block;
+  float: right;
+  margin-left: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 100px;
+  line-height: 17px;
+  text-align: right;
+  font-family: "museo-sans-rounded",sans-serif;
+  font-weight: 300;
+}
+
+/*ORG NAV*/
+.org-nav {
+  justify-content: space-around;
+  display: block;
+  background: #6a416a; /* Old browsers */
+    background: -webkit-linear-gradient(#6a416a 3%, #b29dc1 100%);
+    background: -o-linear-gradient(#6a416a 3%, #b29dc1 100%);
+    background: linear-gradient(#6a416a 3%, #b29dc1 100%); 
+    /* FF3.6-15 */ /* Chrome10-25,Safari5.1-6 */ /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient
+    ( startColorstr='#6a416a', endColorstr='#b29dc1',GradientType=0 ); /* IE6-9 */
+}
+
+.org-nav-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.tog {
+  height: 36px;
+  width: 500px;
+  margin-top: 34px;
+  margin-left: 14px;
+}
+
+.lesson-only span {
+  margin-top: 20px;
+  margin-left: 8px;
+}
+
+.switch {
+  background-image: url(/images/switch.png);
+  background-repeat: no-repeat;
+  background-size: 128px auto;
+  width: 61px;
+  height: 40px;
+  display: block;
+  margin-left: 132px;
+  margin-top: -24px;
+}
+
+.top_settings li {
+  font-family: Helvetica,Arial,"Lucida Grande",sans-serif;
+  color: white;
+  list-style-image: url(/images/profile-icon-sm.png);
+}
+
+#logout {
+  list-style-image: url(/images/exit-sm.png);
+}
+
+
+
+
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+
+    .org-nav {
+      width: 100%;
+    }
+
+}
+
+/* Portrait */
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
+
+
+   .org-nav {
+      width: 100%;
+      padding-top: 10px;
+      padding-left: 5px;
+      padding-bottom: 2px; 
+    }
+
+    .org-nav-container {
+      font-size: 10px;
+    }
+
+    #top-mbl-logo {
+      width: 200px;
+      height: auto;
+    }
+
+    .top_settings li {
+      font-size: 10px;
+      padding-right: 10px;
+    }
+
+    #account {
+      padding-bottom: 3px;
+    }
+    /*--------------------------*/
+
+
+    .main_nav_container > div {
+      padding: 10px;
+      font-size: 9px;
+
+    }
+
+    .left-menu {
+      display: block;
+      width: 300px;
+      height: 600px;
+      background-color: blanchedalmond;
+      /* top: -300px; */
+      margin-top: -600px;
+      z-index: 900000000000000000000000;
+      position: fixed;
+    }
+     
+    
+    .main_menu > img {
+      padding-bottom: 2px;
+      width: 27px;
+      height: auto;
+      margin-top: 5px;
+    }
+
+    .mbl_main_nav {
+      height: 143px;
+    }
+    
+    .lesson_menu {
+    }
+
+    .lesson_menu > a:link, a:visited, a:active {
+      font-size: 30px;
+      text-decoration: none;
+      font-weight: 500;
+      color: #2ecc71;
+    }
+
+
+
+    .section_title_nav {
+      font-size: 10px;
+      letter-spacing: 2px;
+      font-weight: 600;
+      margin-bottom: -5px;
+    }
+
+    .glyphicon-menu-right {
+      font-weight: normal;
+      font-size: 21px;
+      margin-left: -3px;
+    }
+
+    .jumbotron  {
+      background-size: auto 99vh;
+      background-position: -19vh -83px;
+      height: 71vh;
+    }
+
+    .lesson-only {
+      margin-left: 14px;
+    }
+
+
+}

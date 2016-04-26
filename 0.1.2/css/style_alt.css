@@ -1,0 +1,93 @@
+/*-----------------------Iphone------------------------*/
+/* Landscape */
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+
+
+
+}
+
+/* Portrait */
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
+
+
+    
+
+    #top-mbl-logo {
+      width: 70px;
+      height: auto;
+    }
+
+    .top_settings li {
+      font-size: 10px;
+      padding-right: 10px;
+    }
+
+    #account {
+      padding-bottom: 3px;
+    }
+    /*--------------------------*/
+
+
+    .main_nav_container > div {
+      padding: 10px;
+      font-size: 9px;
+
+    }
+    
+    .main_menu > img {
+      padding-bottom: 2px;
+      width: 27px;
+      height: auto;
+      margin-top: 5px;
+    }
+
+    .mbl_main_nav {
+      height: 143px;
+    }
+    
+    .lesson_menu {
+    }
+
+    .lesson_menu > a:link, a:visited, a:active {
+      font-size: 30px;
+      text-decoration: none;
+      font-weight: 500;
+      color: #2ecc71;
+    }
+
+    .section_title_nav {
+      font-size: 10px;
+      letter-spacing: 2px;
+      font-weight: 600;
+      margin-bottom: -5px;
+    }
+
+    .glyphicon-menu-right {
+      font-weight: 100;
+      font-size: 21px;
+      margin-left: 1px;
+    }
+
+}
+
+body  {
+  margin: 0;
+  -webkit-overflow-scrolling: touch
+}
+
+
+
+
+
+
+
+
+
+

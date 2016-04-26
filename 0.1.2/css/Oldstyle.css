@@ -1,0 +1,18 @@
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+
+/* Portrait */
+
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+    .org-nav {
+        display: block;
+        width: 100%;
+        background-size: auto 72%;
+        height: 80px;
+        background-image: url(/0.1.2/images/org_nav_bar.jpg);
+        background-repeat: no-repeat;
+    }
+}

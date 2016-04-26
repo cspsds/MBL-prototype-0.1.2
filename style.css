@@ -1,0 +1,179 @@
+/*-----------------------Iphone------------------------*/
+/* Landscape */
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+
+  	.org-nav {
+  		width: 100%;
+  	}
+
+}
+
+/* Portrait */
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
+
+
+    /*--------Org Nav--------*/
+  	.org-nav {
+  		width: 100%;
+      padding-top: 10px;
+      padding-left: 5px;
+      padding-bottom: 2px; 
+  	}
+
+    .org-nav-container {
+      font-size: 10px;
+    }
+
+    #top-mbl-logo {
+      width: 200px;
+      height: auto;
+    }
+
+    .top_settings li {
+      font-size: 10px;
+      padding-right: 10px;
+    }
+
+    #account {
+      padding-bottom: 3px;
+    }
+    /*--------------------------*/
+
+
+    .main_nav_container > div {
+      padding: 10px;
+      font-size: 9px;
+
+    }
+    
+    .main_menu > img {
+      padding-bottom: 2px;
+      width: 27px;
+      height: auto;
+      margin-top: 5px;
+    }
+
+    .mbl_main_nav {
+      height: 143px;
+    }
+    
+    .lesson_menu {
+    }
+
+    .lesson_menu > a:link, a:visited, a:active {
+      font-size: 30px;
+      text-decoration: none;
+      font-weight: 500;
+      color: #2ecc71;
+    }
+
+    .section_title_nav {
+      font-size: 10px;
+      letter-spacing: 2px;
+      font-weight: 600;
+      margin-bottom: -5px;
+    }
+
+    .glyphicon-menu-right {
+      font-weight: 100;
+      font-size: 21px;
+      margin-left: -10px;
+    }
+
+    li { list-style-type: none;}
+
+
+}
+
+body  {
+  margin: 0;
+  -webkit-overflow-scrolling: touch;
+  background-color: #fff;
+}
+
+
+.wrapme {
+  height: 100vh;
+}
+
+/*ORG NAV*/
+.org-nav {
+  justify-content: space-around;
+	display: block;
+	background: #6a416a; /* Old browsers */
+    background: -webkit-linear-gradient(#6a416a 3%, #b29dc1 100%);
+    background: -o-linear-gradient(#6a416a 3%, #b29dc1 100%);
+    background: linear-gradient(#6a416a 3%, #b29dc1 100%); 
+    /* FF3.6-15 */ /* Chrome10-25,Safari5.1-6 */ /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient
+    ( startColorstr='#6a416a', endColorstr='#b29dc1',GradientType=0 ); /* IE6-9 */
+}
+
+.org-nav-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.top_settings li {
+  font-family: Helvetica,Arial,"Lucida Grande",sans-serif;
+  color: white;
+  list-style-image: url(/images/profile-icon-sm.png);
+}
+
+#logout {
+  list-style-image: url(/images/exit-sm.png);
+}
+
+
+
+
+/*MAIN NAV*/
+.mbl_main_nav {
+  background-color: #ecf0f1;
+  position: fixed;
+  align-items: stretch;
+  width: 100%;
+}
+
+.main_nav_container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  align-items: stretch;
+}
+
+.main_nav_container > div {
+  background-color: rgba(255, 255, 255, 0.48);
+  color: #7f8c8d;
+  height: 57px;
+}
+
+.main_menu {
+  display: flex; 
+  flex-flow: column; 
+  font-weight: 500;
+}
+
+
+/*LESSON MENU*/
+.lesson_menu  {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: center;
+}
+
+
+/*MEUN*/
+ul {
+  list-style-type: none;
+}
+
